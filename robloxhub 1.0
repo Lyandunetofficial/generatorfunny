@@ -1,0 +1,83 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "generafunnyHUB", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+
+local home = Window:MakeTab({
+
+    Name = "Home",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+
+
+local premiumplus = Window:MakeTab({
+
+    Name = "premium more",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = true
+
+})
+
+
+
+home:AddButton({
+
+    Name = ".gg/fCeetpsCFh",
+
+    Callback = function()
+
+
+
+    end    
+
+})
+
+
+
+home:AddButton({
+
+    Name = "exit",
+
+    Callback = function()
+
+        OrionLib:Destroy()
+
+    end    
+
+})
+
+
+
+home:AddButton({
+
+    Name = "noclip",
+
+    Callback = function()
+
+        
+
+    end    
+
+})
+
+
+
+OrionLib:MakeNotification({
+
+    Name = "join the server",
+
+    Content = ".gg/fCeetpsCFh",
+
+    Image = "rbxassetid://7202182455",
+
+    Time = 5
+
+})
